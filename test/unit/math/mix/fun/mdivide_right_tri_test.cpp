@@ -1,19 +1,19 @@
 #include <test/unit/math/test_ad.hpp>
 
 namespace stan {
-  namespace math {
-    namespace test {
-      namespace mdivide_right {
-        auto f = [](const auto& x, const auto& y) {
-          return stan::math::mdivide_right_tri<Eigen::Lower>(x, y);
-        };
-        auto f_up = [](const auto& x, const auto& y) {
-          return stan::math::mdivide_right_tri<Eigen::Upper>(x, y);
-        };
-      }
-    }
-  }
-}
+namespace math {
+namespace test {
+namespace mdivide_right {
+auto f = [](const auto& x, const auto& y) {
+  return stan::math::mdivide_right_tri<Eigen::Lower>(x, y);
+};
+auto f_up = [](const auto& x, const auto& y) {
+  return stan::math::mdivide_right_tri<Eigen::Upper>(x, y);
+};
+}  // namespace mdivide_right
+}  // namespace test
+}  // namespace math
+}  // namespace stan
 
 TEST(MathMixMatFun, mdivideRightTriSizes) {
   using stan::math::test::mdivide_right::f;
@@ -62,7 +62,7 @@ TEST(MathMixMatFun, mdivideRightTriBase) {
 
   Eigen::MatrixXd y(3, 3);
   // NOTE: Why did this have to change???
-  //y << 1, 0, 0, 2, 3, 0, 4, 5, 6;
+  // y << 1, 0, 0, 2, 3, 0, 4, 5, 6;
   y << 1, 2, 3, 4, 5, 6, 7, 8, 9;
   Eigen::MatrixXd y_tr = y.transpose();
   Eigen::RowVectorXd z(3);
@@ -82,8 +82,6 @@ TEST(MathMixMatFun, mdivideRightTriBase) {
   Eigen::MatrixXd vv(2, 2);
   vv << 2, 3, 5, 7;
   stan::test::expect_ad(f, vv, uu);
-
-
 }
 
 TEST(MathMixMatFun, mdivideRightTriExceptions) {

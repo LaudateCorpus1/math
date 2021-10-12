@@ -40,13 +40,14 @@ mdivide_right_tri(const EigMat1& b, const EigMat2& A) {
     return {b.rows(), 0};
   }
   return Eigen::Matrix<return_type_t<EigMat1, EigMat2>,
-                       EigMat2::RowsAtCompileTime,
-                       EigMat2::ColsAtCompileTime>(A)
+                       EigMat2::RowsAtCompileTime, EigMat2::ColsAtCompileTime>(
+             A)
       .template triangularView<TriView>()
-      .template solve<Eigen::OnTheRight>(Eigen::Matrix<return_type_t<EigMat1, EigMat2>,
-                           EigMat1::RowsAtCompileTime,
-                           EigMat1::ColsAtCompileTime>(b)
-                 ).eval();
+      .template solve<Eigen::OnTheRight>(
+          Eigen::Matrix<return_type_t<EigMat1, EigMat2>,
+                        EigMat1::RowsAtCompileTime, EigMat1::ColsAtCompileTime>(
+              b))
+      .eval();
 }
 
 }  // namespace math

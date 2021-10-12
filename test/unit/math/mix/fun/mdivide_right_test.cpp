@@ -48,7 +48,6 @@ TEST(MathMixMatFun, mdivideRight) {
   Eigen::RowVectorXd g(2);
   g << 1, 2;
 
-
   // matrix, matrix
   for (const auto& m1 : std::vector<Eigen::MatrixXd>{a, b, c, d, e}) {
     for (const auto& m2 : std::vector<Eigen::MatrixXd>{a, b, c, d}) {
@@ -60,7 +59,6 @@ TEST(MathMixMatFun, mdivideRight) {
   for (const auto& m : std::vector<Eigen::MatrixXd>{b}) {
     stan::test::expect_ad(f, g, m);
   }
-
 
   Eigen::RowVectorXd u(5);
   u << 62, 84, 84, 76, 108;
@@ -87,5 +85,4 @@ TEST(MathMixMatFun, mdivideRightZeros) {
 
   // exceptions: wrong types
   stan::test::expect_ad(f, v3, m33);
-
 }
