@@ -39,28 +39,14 @@ mdivide_right_tri(const EigMat1& b, const EigMat2& A) {
   if (A.rows() == 0) {
     return {b.rows(), 0};
   }
-  if (TriView == Eigen::Lower) {
-    return Eigen::Matrix<return_type_t<EigMat1, EigMat2>,
-                         EigMat2::RowsAtCompileTime,
-                         EigMat2::ColsAtCompileTime>(A)
-        .template triangularView<TriView>()
-        .transpose()
-        .solve(Eigen::Matrix<return_type_t<EigMat1, EigMat2>,
-                             EigMat1::RowsAtCompileTime,
-                             EigMat1::ColsAtCompileTime>(b)
-                   .transpose())
-        .transpose();
-  } else {
-    return Eigen::Matrix<return_type_t<EigMat1, EigMat2>,
-                         EigMat2::RowsAtCompileTime,
-                         EigMat2::ColsAtCompileTime>(A)
-        .template triangularView<TriView>()
-        .solve(Eigen::Matrix<return_type_t<EigMat1, EigMat2>,
-                             EigMat1::RowsAtCompileTime,
-                             EigMat1::ColsAtCompileTime>(b)
-                   .transpose())
-        .transpose();
-  }
+  return Eigen::Matrix<return_type_t<EigMat1, EigMat2>,
+                       EigMat2::RowsAtCompileTime,
+                       EigMat2::ColsAtCompileTime>(A)
+      .template triangularView<TriView>()
+      .template solve<Eigen::OnTheRight>(Eigen::Matrix<return_type_t<EigMat1, EigMat2>,
+                           EigMat1::RowsAtCompileTime,
+                           EigMat1::ColsAtCompileTime>(b)
+                 ).eval();
 }
 
 }  // namespace math
