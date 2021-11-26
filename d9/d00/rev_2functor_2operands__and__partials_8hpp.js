@@ -1,0 +1,14 @@
+var rev_2functor_2operands__and__partials_8hpp =
+[
+    [ "ops_partials_edge< double, std::vector< var > >", "d5/da5/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01std_1_1vector_3_01var_01_4_01_4.html", "d5/da5/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01std_1_1vector_3_01var_01_4_01_4" ],
+    [ "ops_partials_edge< double, Op, require_eigen_st< is_var, Op > >", "d0/d33/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01_op_00_01require__eigen__st_3_01is__var_00_01_op_01_4_01_4.html", "d0/d33/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01_op_00_01require__eigen__st_3_01is__var_00_01_op_01_4_01_4" ],
+    [ "ops_partials_edge< double, var_value< Op >, require_eigen_t< Op > >", "d6/dd2/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01var__value_3_01_op_01_4_00_dceaea76f0173617d6c2e4d05fe9919c.html", "d6/dd2/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01var__value_3_01_op_01_4_00_dceaea76f0173617d6c2e4d05fe9919c" ],
+    [ "ops_partials_edge< double, std::vector< Eigen::Matrix< var, R, C > > >", "de/d9a/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01std_1_1vector_3_01_eigen_1_fbf70661bbf2f7fcf49dfe07f35485de.html", "de/d9a/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01std_1_1vector_3_01_eigen_1_fbf70661bbf2f7fcf49dfe07f35485de" ],
+    [ "ops_partials_edge< double, std::vector< std::vector< var > > >", "da/db9/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01std_1_1vector_3_01std_1_1vector_3_01var_01_4_01_4_01_4.html", "da/db9/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01std_1_1vector_3_01std_1_1vector_3_01var_01_4_01_4_01_4" ],
+    [ "ops_partials_edge< double, std::vector< var_value< Op > >, require_eigen_t< Op > >", "d2/db1/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01std_1_1vector_3_01var__valu7626d84a3cd8e7ec11646db651a99317.html", "d2/db1/classstan_1_1math_1_1internal_1_1ops__partials__edge_3_01double_00_01std_1_1vector_3_01var__valu7626d84a3cd8e7ec11646db651a99317" ],
+    [ "update_adjoints", "d9/d00/rev_2functor_2operands__and__partials_8hpp.html#aae31bd031530eac185660ad384a858d1", null ],
+    [ "update_adjoints", "d9/d00/rev_2functor_2operands__and__partials_8hpp.html#a302e4541181bc6e065babc2cd1536e13", null ],
+    [ "update_adjoints", "d9/d00/rev_2functor_2operands__and__partials_8hpp.html#aa866bddf238db8ff356aeaeda761adb8", null ],
+    [ "update_adjoints", "d9/d00/rev_2functor_2operands__and__partials_8hpp.html#af20d869b2d55644eda624870d2b60952", null ],
+    [ "update_adjoints", "d9/d00/rev_2functor_2operands__and__partials_8hpp.html#a7806a3af704b4fa100ec51b41e752600", null ]
+];

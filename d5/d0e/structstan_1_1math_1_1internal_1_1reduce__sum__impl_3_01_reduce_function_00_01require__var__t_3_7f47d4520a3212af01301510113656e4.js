@@ -1,0 +1,6 @@
+var structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_7f47d4520a3212af01301510113656e4 =
+[
+    [ "recursive_reducer", "d6/dcc/structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_a63935318039ad46e0be3e3377364cae.html", "d6/dcc/structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_a63935318039ad46e0be3e3377364cae" ],
+    [ "scoped_args_tuple", "da/d57/structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_a01804cf1708f09b35c176d9d7676d3b.html", "da/d57/structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_a01804cf1708f09b35c176d9d7676d3b" ],
+    [ "operator()", "d5/d0e/structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_7f47d4520a3212af01301510113656e4.html#ab7b74b96db33bc459644216e71040c4d", null ]
+];

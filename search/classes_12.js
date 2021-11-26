@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['tan_5f',['tan_',['../de/da5/classstan_1_1math_1_1tan__.html',1,'stan::math']]],
+  ['tan_5ffun',['tan_fun',['../d7/d4d/structstan_1_1math_1_1tan__fun.html',1,'stan::math']]],
+  ['tanh_5f',['tanh_',['../dd/d50/classstan_1_1math_1_1tanh__.html',1,'stan::math']]],
+  ['tanh_5ffun',['tanh_fun',['../db/d95/structstan_1_1math_1_1tanh__fun.html',1,'stan::math']]],
+  ['tgamma_5f',['tgamma_',['../d6/dd8/classstan_1_1math_1_1tgamma__.html',1,'stan::math']]],
+  ['tgamma_5ffun',['tgamma_fun',['../df/d28/structstan_1_1math_1_1tgamma__fun.html',1,'stan::math']]],
+  ['to_5fbuffer',['to_buffer',['../d7/dc8/namespacestan_1_1math_1_1opencl__kernels_1_1internal.html#d8/dbe/structstan_1_1math_1_1opencl__kernels_1_1internal_1_1to__buffer',1,'stan::math::opencl_kernels::internal']]],
+  ['to_5fbuffer_3c_20in_5fbuffer_20_3e',['to_buffer&lt; in_buffer &gt;',['../d7/dc8/namespacestan_1_1math_1_1opencl__kernels_1_1internal.html#dc/d77/structstan_1_1math_1_1opencl__kernels_1_1internal_1_1to__buffer_3_01in__buffer_01_4',1,'stan::math::opencl_kernels::internal']]],
+  ['to_5fbuffer_3c_20in_5fout_5fbuffer_20_3e',['to_buffer&lt; in_out_buffer &gt;',['../d7/dc8/namespacestan_1_1math_1_1opencl__kernels_1_1internal.html#df/d74/structstan_1_1math_1_1opencl__kernels_1_1internal_1_1to__buffer_3_01in__out__buffer_01_4',1,'stan::math::opencl_kernels::internal']]],
+  ['to_5fbuffer_3c_20out_5fbuffer_20_3e',['to_buffer&lt; out_buffer &gt;',['../d7/dc8/namespacestan_1_1math_1_1opencl__kernels_1_1internal.html#de/d7a/structstan_1_1math_1_1opencl__kernels_1_1internal_1_1to__buffer_3_01out__buffer_01_4',1,'stan::math::opencl_kernels::internal']]],
+  ['trace_5fgen_5fquad_5fform_5fvari',['trace_gen_quad_form_vari',['../df/d4f/classstan_1_1math_1_1internal_1_1trace__gen__quad__form__vari.html',1,'stan::math::internal']]],
+  ['trace_5fgen_5fquad_5fform_5fvari_5falloc',['trace_gen_quad_form_vari_alloc',['../db/dd1/classstan_1_1math_1_1internal_1_1trace__gen__quad__form__vari__alloc.html',1,'stan::math::internal']]],
+  ['trace_5fquad_5fform_5fvari',['trace_quad_form_vari',['../d8/d11/classstan_1_1math_1_1internal_1_1trace__quad__form__vari.html',1,'stan::math::internal']]],
+  ['trace_5fquad_5fform_5fvari_5falloc',['trace_quad_form_vari_alloc',['../dd/d19/classstan_1_1math_1_1internal_1_1trace__quad__form__vari__alloc.html',1,'stan::math::internal']]],
+  ['traits_3c_20stan_3a_3amath_3a_3aarena_5fmatrix_3c_20t_20_3e_20_3e',['traits&lt; stan::math::arena_matrix&lt; T &gt; &gt;',['../d7/dc9/namespace_eigen_1_1internal.html#d5/d33/struct_eigen_1_1internal_1_1traits_3_01stan_1_1math_1_1arena__matrix_3_01_t_01_4_01_4',1,'Eigen::internal']]],
+  ['traits_3c_20stan_3a_3amath_3a_3aholder_3c_20argtype_2c_20ptrs_2e_2e_2e_20_3e_20_3e',['traits&lt; stan::math::Holder&lt; ArgType, Ptrs... &gt; &gt;',['../d7/dc9/namespace_eigen_1_1internal.html#d3/d91/struct_eigen_1_1internal_1_1traits_3_01stan_1_1math_1_1_holder_3_01_arg_type_00_01_ptrs_8_8_8_01_4_01_4',1,'Eigen::internal']]],
+  ['traits_3c_20stan_3a_3amath_3a_3apinned_5fmatrix_3c_20t_20_3e_20_3e',['traits&lt; stan::math::pinned_matrix&lt; T &gt; &gt;',['../d7/dc9/namespace_eigen_1_1internal.html#db/dcf/struct_eigen_1_1internal_1_1traits_3_01stan_1_1math_1_1pinned__matrix_3_01_t_01_4_01_4',1,'Eigen::internal']]],
+  ['transpose_5f',['transpose_',['../dc/d0f/classstan_1_1math_1_1transpose__.html',1,'stan::math']]],
+  ['trigamma_5f',['trigamma_',['../d5/d4d/classstan_1_1math_1_1trigamma__.html',1,'stan::math']]],
+  ['trigamma_5ffun',['trigamma_fun',['../dd/dc0/structstan_1_1math_1_1trigamma__fun.html',1,'stan::math']]],
+  ['trunc_5f',['trunc_',['../df/df1/classstan_1_1math_1_1trunc__.html',1,'stan::math']]],
+  ['trunc_5ffun',['trunc_fun',['../d7/dc2/structstan_1_1math_1_1trunc__fun.html',1,'stan::math']]],
+  ['tuning_5fstruct',['tuning_struct',['../de/d5f/group__opencl__context__group.html#db/d9c/structstan_1_1math_1_1opencl__context__base_1_1tuning__struct',1,'stan::math::opencl_context_base']]]
+];

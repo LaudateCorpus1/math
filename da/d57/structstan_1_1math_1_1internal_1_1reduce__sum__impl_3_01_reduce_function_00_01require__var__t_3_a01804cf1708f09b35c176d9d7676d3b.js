@@ -1,0 +1,7 @@
+var structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_a01804cf1708f09b35c176d9d7676d3b =
+[
+    [ "args_tuple_t", "da/d57/structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_a01804cf1708f09b35c176d9d7676d3b.html#ae75e71bc988fb310b60d2529fd5ca2a0", null ],
+    [ "scoped_args_tuple", "da/d57/structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_a01804cf1708f09b35c176d9d7676d3b.html#af7451700b1b1cb2bbf331e65f712b591", null ],
+    [ "args_tuple_holder_", "da/d57/structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_a01804cf1708f09b35c176d9d7676d3b.html#a5e3e3f8dbda8c9780a25ebf851b01363", null ],
+    [ "stack_", "da/d57/structstan_1_1math_1_1internal_1_1reduce__sum__impl_3_01_reduce_function_00_01require__var__t_3_a01804cf1708f09b35c176d9d7676d3b.html#a9e0167da657b80cd00ec8e64cbb605cb", null ]
+];
